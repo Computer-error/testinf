@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(235, 135, 135);
+    align-items: center;
+    background-image: url(bg.png);
+    background-position: fixed;
+    background: linear-gradient(
+            270deg,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet,
+            red
+        );
+    background-size: 1400% 1400%;
+
+        /* Animation */
+    animation: rainbow 15s ease infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.box{
+    background-color: white;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 0px;
+	border: 1px solid #ce93d8 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.nav{
+    background-color: rgb(224, 125, 64);
+    padding: 0px;
+	border: 1px solid #ce93d8 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ss{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.boxini{
+    background-color: rgb(222, 176, 176);
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 0px;
+    border: 1px solid #ce93d8 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.box2{
+    background-color: white;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding: 0px;
+    border: 1px solid #ce93d8 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}

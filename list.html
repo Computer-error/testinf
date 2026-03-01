@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>IntramsDB</title>
+    <style>
+    </style>
+
+</head>
+<body class="blue-theme">
+    <div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">IntramsDB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="team.html">Patricipate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="list.html">Player List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sched.html">Schedule</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="box">
+    <div class="container-fluid py-5">
+    <div class="ss">
+    
+    <h2>Team list</h2>
+    <p>Please enter a number between 1 and 6, each number corresponds to a team color.</p><br>
+    <list>
+        <li>1 - Red</li>
+        <li>2 - Orange</li>
+        <li>3 - Yellow</li>
+        <li>4 - Green</li>
+        <li>5 - Blue</li>
+        <li>6 - Purple</li>
+    </list>
+    <input type="number" id="me" min="1" max="6">
+    <button class="btn btn-primary" onclick="ply()">Show list</button>
+    <p id="eep"></p><br>
+    <p id="nuhuh"></p>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="py" src="play.py"></script>
+</body>
+</html>
+
