@@ -48,34 +48,34 @@
 
     <label>
         <p>Are you done with the online registration?</p>
-        <input type="checkbox" name="registered" id="pw" value="yes"> Yes
-        <input type="checkbox" name="registered" id="pw" value="no"> No
+        <input type="checkbox" name="registered" id="pw" value="1"> Yes
+        <input type="checkbox" name="registered" id="pw" value="0"> No
     </label>
 
     <br>
 
     <label>
         <p>Do you have the medical clearance from the link?</p>
-        <input type="checkbox" name="medical check" id="me" value="yes"> Yes
-        <input type="checkbox" name="medical check" id="me" value="no"> No
+        <input type="checkbox" name="medical check" id="me" value="1"> Yes
+        <input type="checkbox" name="medical check" id="me" value="0"> No
     </label>
 
     <br>
 
     <p>What's your grade and section?</p>
     <label>
-        <input type="number" name="grade" id="gr" min="7" max="10" placeholder="Enter grade" required> 
+        <input type="number" name="grade" id="gr" min="7" max="10" placeholder="Enter grade"> 
     </label>
 
     <br>
 
     <label>
-        <input type="text" name="section" id="sc" placeholder="Enter section" required> 
+        <input type="text" name="section" id="sc" placeholder="Enter section"> 
     </label>
 
     <br>
 
-    <button type="button" class="btn btn-primary" py-on-click="allow">Submit</button>
+    <button class="btn btn-primary" py-click="allow()">Submit</button>
     <p id="ver"></p>
     </div>
     </div>
@@ -85,6 +85,4 @@
     <script type="py" src="main3.py"></script>
 </body>
 </html>
-
-
 
